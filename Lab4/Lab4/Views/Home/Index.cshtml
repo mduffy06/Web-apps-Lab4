@@ -12,4 +12,6 @@
 <div>The Time is @ViewData["Time"] on @ViewData["Date"]</div>
 <div>There are @ViewData["DaysLeft"] days in 2017</div>
 
-<a href="~/Views/Home/Items.cshtml">PAGE 2</a>
+<a href="@Url.Action("Items/5","Home")">Page 2</a>
+
+

@@ -12,3 +12,16 @@ h1{
     border-radius: 25px;
 }
 
+.box {
+    
+    background-color: blue;
+    width: 50px;
+    border: 50px blue;
+    padding: 50px;
+    margin: 50px;
+}
+
+p.boxfont{
+
+    color: white;
+}

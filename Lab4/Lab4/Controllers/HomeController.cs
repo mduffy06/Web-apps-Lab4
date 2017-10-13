@@ -56,12 +56,17 @@ namespace Lab4.Controllers
 
 
 
-        public IActionResult Items()
+        [Route("Home/Items/{id}")]
+
+
+        public IActionResult Items(int id)
         {
+            
+
+            ViewData["numid"] = id;
 
 
-
-            int[] items = { 123, 44, 29, 1337, 500, 5 };
+            int[] items = { 123, 44, 29, 1337, 500, 5};
             return View(items);
         }
     }
